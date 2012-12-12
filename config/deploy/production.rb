@@ -10,7 +10,7 @@ set :deploy_to, "/app/gps"
 default_run_options[:pty] = true
 
 set :scm, :git
-set :repository, "git@github.com:rarolabs/gps.git"
+set :repository, "git@github.com:rodrigosol/gps.git"
 set :branch, "master"
 set :deploy_via, :remote_cache
 set :git_shallow_clone, 1
